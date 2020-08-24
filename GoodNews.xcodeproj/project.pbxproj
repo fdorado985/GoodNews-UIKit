@@ -13,6 +13,7 @@
 		A9DA367124F4568500488477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DA367024F4568500488477 /* Assets.xcassets */; };
 		A9DA367424F4568500488477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DA367224F4568500488477 /* LaunchScreen.storyboard */; };
 		A9DA367E24F457DE00488477 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA367D24F457DE00488477 /* NewsListViewController.swift */; };
+		A9DA368124F45B8200488477 /* GWService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA368024F45B8200488477 /* GWService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A9DA367324F4568500488477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9DA367524F4568500488477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9DA367D24F457DE00488477 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		A9DA368024F45B8200488477 /* GWService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A9DA366624F4568100488477 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				A9DA367F24F45B7500488477 /* Services */,
 				A9DA367C24F457D300488477 /* Controllers */,
 				A9DA366724F4568100488477 /* AppDelegate.swift */,
 				A9DA366924F4568100488477 /* SceneDelegate.swift */,
@@ -73,6 +76,14 @@
 				A9DA367D24F457DE00488477 /* NewsListViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9DA367F24F45B7500488477 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA368024F45B8200488477 /* GWService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DA367E24F457DE00488477 /* NewsListViewController.swift in Sources */,
+				A9DA368124F45B8200488477 /* GWService.swift in Sources */,
 				A9DA366824F4568100488477 /* AppDelegate.swift in Sources */,
 				A9DA366A24F4568100488477 /* SceneDelegate.swift in Sources */,
 			);
