@@ -14,6 +14,7 @@
 		A9DA367424F4568500488477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DA367224F4568500488477 /* LaunchScreen.storyboard */; };
 		A9DA367E24F457DE00488477 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA367D24F457DE00488477 /* NewsListViewController.swift */; };
 		A9DA368124F45B8200488477 /* GWService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA368024F45B8200488477 /* GWService.swift */; };
+		A9DA368424F4B68C00488477 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA368324F4B68C00488477 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A9DA367524F4568500488477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9DA367D24F457DE00488477 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		A9DA368024F45B8200488477 /* GWService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWService.swift; sourceTree = "<group>"; };
+		A9DA368324F4B68C00488477 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		A9DA366624F4568100488477 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				A9DA368224F4B68100488477 /* Model */,
 				A9DA367F24F45B7500488477 /* Services */,
 				A9DA367C24F457D300488477 /* Controllers */,
 				A9DA366724F4568100488477 /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 				A9DA368024F45B8200488477 /* GWService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		A9DA368224F4B68100488477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA368324F4B68C00488477 /* Article.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				A9DA368124F45B8200488477 /* GWService.swift in Sources */,
 				A9DA366824F4568100488477 /* AppDelegate.swift in Sources */,
 				A9DA366A24F4568100488477 /* SceneDelegate.swift in Sources */,
+				A9DA368424F4B68C00488477 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
